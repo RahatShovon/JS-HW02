@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Java Script</title>
+    <!--css links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <!-- show date -->
+    <div class="container">
+      <h1 class="text-danger">Click the button to show the date</h1>
+      <button type="button" class="btn btn-dark" onclick="showDate()">Show Date</button>
+      <h2 id="dateh2">Date</h2>
+    </div>
+
+    <!-- text change -->
+    <div class="container">
+      <h1 class="text-danger">Click the button to change the text</h1>
+      <button type="button" class="btn btn-dark" onclick="textChange()">Text Change</button>
+      <h2 id="changeh2">To change your life</h2>
+    </div>
+
+    <!-- text repeat -->
+    <div class="container">
+      <h1 class="text-danger">Click the button to repeat the message</h1>
+      <button type="button" class="btn btn-dark" onclick="repeatText()">Repeat Message</button>
+      <h2 id="repeath2">To change your life, You need to change your PRIORITIES. </h2>
+    </div>
+
+    <!-- bulb on/off -->
+    <div class="container">
+      <h1 class="text-danger">Click the button to turn on/off the bulb</h1>
+      <button type="button" class="btn btn-dark" onclick="bulbOff()">Bulb Off</button>
+      <img id="bulb" src="images/bulboff.gif">
+      <button type="button" class="btn btn-dark" onclick="bulbOn()">Bulb On</button>
+    </div>
+
+    <!-- sum result -->
+    <div class="container">
+      <h1 class="text-danger">Click the button to see the sum of 10 and 5</h1>
+      <button type="button" class="btn btn-dark" onclick="outPut()">Result</button>
+      <h2 id="op"></h2>
+    </div>
+
+    <!-- focus field -->
+    <div class="container">
+      <h1 class="text-danger">When the input field gets focus, a function changes the background-color</h1>
+      <input type="text" onfocus="onFocus(this)">
+    </div>
+
+    <!-- key press -->
+    <div class="container">
+      <h1 class="text-danger">A function is triggered when the user is pressing a key in the input field</h1>
+      <input type="text" onkeypress="keyPress()">
+    </div>
+
+    <!--js links-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
